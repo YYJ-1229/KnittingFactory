@@ -142,16 +142,13 @@ table {
   border-top: 2px solid $primary;
   border-bottom: 2px solid $primary;
   border-collapse: collapse;
-  tr,
+ tr,
   td,
   th {
     border: 1px solid #e2e2e2;
     border-left: none;
     border-right: none;
-    padding: 0.5rem 0.2rem;
-  }
-  td:nth-child(2) {
-    font-weight: 700;
+    padding: 0.5rem;
   }
 }
 @keyframes rotate {
